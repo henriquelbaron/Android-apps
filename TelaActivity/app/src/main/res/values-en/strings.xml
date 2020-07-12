@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="texto_1">Text 1</string>
+    <string name="texto_2">Text 2</string>
+    <string name="texto_3">Text 3</string>
+    <string name="saudacao">Welcome</string>
+    <string name="mensagem_fechando_app">The app has been closed</string>
+</resources>

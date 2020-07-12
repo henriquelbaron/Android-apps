@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TelaActivity</string>
+    <string name="texto_1">Texto 1</string>
+    <string name="texto_2">Texto 2</string>
+    <string name="texto_3">Texto 3</string>
+    <string name="saudacao">Bienvenido</string>
+    <string name="mensagem_fechando_app">La aplicación ha sido cerrada.</string>
+</resources>

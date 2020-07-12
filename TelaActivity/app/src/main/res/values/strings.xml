@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">TelaActivity</string>
+    <string name="texto_1">Texto 1</string>
+    <string name="texto_2">Texto 2</string>
+    <string name="texto_3">Texto 3</string>
+    <string name="saudacao">Seja bem vindo!</string>
+    <string name="mensagem_fechando_app">O app foi fechado</string>
+</resources>

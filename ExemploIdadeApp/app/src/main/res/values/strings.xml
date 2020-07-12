@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Idade App</string>
+    <string name="idade">Idade</string>
+    <string name="hint_nome">Digite seu Nome</string>
+    <string name="nome">Nome</string>
+    <string name="hint_idade">Digite sua idade</string>
+    <string name="verificar">Verificar</string>
+    <string name="fechar">Fechar</string>
+    <string name="limpar">Limpar</string>
+    <string name="erro_nome">Nome Inválido</string>
+    <string name="erro_idade">Idade Inválida</string>
+</resources>

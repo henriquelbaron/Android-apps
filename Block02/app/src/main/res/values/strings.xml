@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Block02</string>
+    <string name="escolha_um_animal">Escolha um animal</string>
+    <string name="cachorro">Cachorro</string>
+    <string name="porco">Porco</string>
+    <string name="gato">Gato</string>
+    <string name="cavalo">Cavalo</string>
+    <string name="toastMensagem">"Você escolheu "</string>
+    <string-array name="animaisArray">
+        <item>@string/cachorro</item>
+        <item>@string/porco</item>
+        <item>@string/cavalo</item>
+        <item>@string/gato</item>
+    </string-array>
+</resources>

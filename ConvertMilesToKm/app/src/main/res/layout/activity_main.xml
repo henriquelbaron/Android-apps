@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/viewKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@id/kilometros"
+        android:minWidth="200dp"
+        android:text="Kilometros"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/kilometros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="150dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/viewMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewKm"
+        android:layout_toLeftOf="@id/miles"
+        android:text="Milhas"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kilometros"
+        android:layout_centerHorizontal="true"
+        android:width="150dp"
+        android:inputType="numberDecimal"
+        android:textColorHighlight="#CD0C0C"
+        android:textColorLink="#B11616" />
+
+    <Button
+        android:id="@+id/btConverteKmParaMilhas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/miles"
+        android:layout_centerHorizontal="true"
+        android:onClick="toDo"
+        android:text="Km para Milhas"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btCorverteMilhasParaKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btConverteKmParaMilhas"
+        android:onClick="toDo"
+        android:text="Milhas para Km"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btLimpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btCorverteMilhasParaKm"
+        android:layout_centerHorizontal="true"
+        android:onClick="toDo"
+        android:text="Limpar  Campos"
+        android:textSize="18sp" />
+
+</RelativeLayout>

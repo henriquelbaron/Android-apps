@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ConvertMilesToKm</string>
+    <string name="Miles">TextView</string>
+</resources>

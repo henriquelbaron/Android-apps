@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/layout"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_customizado"
+        android:hint="Digite o nome do Produto"
+        android:inputType="textCapWords"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/inputValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_customizado"
+        android:hint="Digite o valor do Produto"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:digits="0123456789."
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:text="Qtd. Parcelas"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:text="Juros(%)"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/inputParcelas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_customizado"
+            android:digits="0123456789"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputJuros"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_customizado"
+            android:digits="0123456789."
+            android:hint="0"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Com Entrada"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_customizado"
+            android:inputType="number"
+            android:onClick="calcularAction"
+            android:text="Calcular"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btLimpar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_customizado"
+            android:inputType="number"
+            android:onClick="limparAction"
+            android:text="Limpar Dados"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Produto:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textValorInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Inicial:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textValorParcelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Parcelas:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textValorTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Total:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textJuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de Juros:"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="escolha_um_animal">Pick an animal:</string>
+    <string name="cachorro">Dog</string>
+    <string name="porco">Pig</string>
+    <string name="gato">Cat</string>
+    <string name="cavalo">Horse</string>
+    <string name="toastMensagem">"You picked "</string>
+</resources>

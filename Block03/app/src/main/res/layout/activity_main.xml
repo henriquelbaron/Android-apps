@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="30"
+        android:weightSum="10"
+        android:background="@color/colorAccent"
+        >
+
+        <Button
+            android:id="@+id/pequeno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pequeno" />
+
+        <Button
+            android:id="@+id/grande"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="Grande" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="70"
+        android:background="@drawable/logo">
+
+        <Button
+            android:id="@+id/norte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Norte" />
+
+        <Button
+            android:id="@+id/sul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Sul"
+            />
+
+        <Button
+            android:id="@+id/leste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="Leste" />
+
+        <Button
+            android:id="@+id/oeste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Oeste" />
+
+        <Button
+            android:id="@+id/centro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Meio" />
+
+        <Button
+            android:id="@+id/noroeste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/norte"
+            android:layout_above="@id/oeste"
+            android:layout_toRightOf="@id/oeste"
+            android:layout_toLeftOf="@id/norte"
+            android:text="Noroeste" />
+
+        <Button
+            android:id="@+id/nordeste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/norte"
+            android:layout_above="@id/leste"
+            android:layout_toLeftOf="@id/leste"
+            android:layout_toRightOf="@id/norte"
+            android:text="Nordeste" />
+
+        <Button
+            android:id="@+id/sudoeste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudoeste"
+            android:layout_above="@id/sul"
+            android:layout_toRightOf="@id/oeste"
+            android:layout_below="@id/oeste"
+            android:layout_toLeftOf="@id/sul"
+            />
+
+        <Button
+            android:id="@+id/sudeste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/sul"
+            android:layout_below="@id/leste"
+            android:layout_toRightOf="@id/sul"
+            android:layout_toLeftOf="@id/leste"
+            android:text="Sudeste" />
+    </RelativeLayout>
+</LinearLayout>

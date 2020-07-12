@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fechar">Close</string>
+    <string name="hint_nome">Write your Name</string>
+    <string name="hint_idade">Write your age</string>
+    <string name="nome">Name</string>
+    <string name="idade">Age</string>
+    <string name="verificar">Verify</string>
+    <string name="limpar">Clean</string>
+    <string name="erro_nome">Invalid Name</string>
+    <string name="erro_idade">Invalid Age</string>
+</resources>
